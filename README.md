@@ -2,7 +2,7 @@
 
 Laranail
 ============
-A comprehensive collection of re-usable classes, functions, and methods for the [Laravel](https://www.laravel.com/) framework.
+A highly opinionated, and comprehensive collection of useful code snippets, classes, and utility functions for the [Laravel](https://www.laravel.com/) framework.
 
 Requirements
 ============

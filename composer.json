@@ -1,7 +1,7 @@
 {
     "name": "laranail/laranail",
     "license": "MIT",
-    "description": "A highly opinionated collection of useful collection of useful Laravel snippets, classes, and utility functions for the everyday busy developer.",
+    "description": "A highly opinionated, and comprehensive collection of useful code snippets, classes, and utility functions for the Laravel framework.",
     "type": "library",
     "keywords": [
         "helpers",
