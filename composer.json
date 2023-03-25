@@ -1,0 +1,60 @@
+{
+    "name": "laranail/laranail",
+    "license": "MIT",
+    "description": "A highly opinionated collection of useful collection of useful Laravel snippets, classes, and utility functions for the everyday busy developer.",
+    "type": "library",
+    "keywords": [
+        "helpers",
+        "laravel",
+        "laravel toolbox",
+        "laravel helper functions",
+        "php",
+        "functions"
+    ],
+    "authors": [
+        {
+            "name": "Imani Manyara",
+            "email": "imani@simtabi.com",
+            "homepage": "https://www.imanimanyara.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "ext-zip": "*",
+        "simtabi/pheg": "dev-master",
+        "spatie/laravel-sluggable": "dev-main",
+        "ichtrojan/laravel-otp": "dev-master",
+        "dyrynda/laravel-model-uuid": "^7.0.0",
+        "dyrynda/laravel-efficient-uuid": "^5.0.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Simtabi\\Laranail\\": "src/"
+        },
+        "files": [
+            "helpers/helpers.php"
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Simtabi\\Laranail\\Core\\Providers\\LaranailServiceProvider"
+            ],
+            "aliases": {
+                "Laranail": "Simtabi\\Laranail\\Core\\Facades\\LaranailFacade",
+                "Languages": "Simtabi\\Laranail\\Nails\\General\\Facades\\LanguagesFacade",
+                "Archiver": "Simtabi\\Laranail\\Nails\\Archiver\\Facades\\ArchiverFacade"
+            }
+        }
+    },
+    "suggest": {
+        "voku/portable-ascii": "Portable ASCII library - performance optimized (ascii) string functions for PHP."
+    }
+}
+
+
+
+
