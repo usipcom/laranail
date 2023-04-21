@@ -1,0 +1,12 @@
+version: '3'
+services:
+  laranail:
+    image: usipcomdevteam/laranail
+    build: .
+    volumes:
+      - ".:/app"
+      - "${HOME}/.ssh:/root/.ssh"
+      - "${PWD}/../docker/volumes/composer/auth.json:/root/.composer/auth.json"
+    working_dir: /app
+    # command: tail -f /dev/null
+    command: composer install

@@ -1,5 +1,5 @@
 {
-    "name": "laranail/laranail",
+    "name": "usipcom/laranail",
     "license": "MIT",
     "description": "A highly opinionated, and comprehensive collection of useful code snippets, classes, and utility functions for the Laravel framework.",
     "type": "library",
@@ -19,13 +19,18 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/usipcom/pheg"
+        }
+    ],
     "require": {
         "ext-zip": "*",
-        "simtabi/pheg": "dev-master",
+        "usipcom/pheg": "dev-master",
         "spatie/laravel-sluggable": "dev-main",
-        "ichtrojan/laravel-otp": "dev-master",
-        "dyrynda/laravel-model-uuid": "^7.0.0",
-        "dyrynda/laravel-efficient-uuid": "^5.0.0"
+        "ichtrojan/laravel-otp": "dev-master"
     },
     "require-dev": {
 
